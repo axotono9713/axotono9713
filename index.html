@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Font Wiki</title>
+</head>
+<body>
+  <div class="topbar">
+    <h2 class="title"><a href="index.html">Font Wiki</a></h2>
+    <select class="theme" id="theme" name="theme">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+  <div class="ctn">
+    <h1 class="title">Font Wiki</h1>
+    <div class="featured">
+      <img id="featured-img" src="tnr.png" alt="Times New Roman">
+      <div>
+        <h3 id="featured-title">Font Of the Day: Times New Roman</h3>
+        <p id="featured-desc">
+          A classic serif typeface characterized by small decorative strokes.
+        </p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="card"><a href="fonts.html"><br><img id="preview1" src="tnr.png" alt="fonts"><br>Fonts</a></div>
+      <div class="card"><a href="fonts.html#font-family"><br><img id="preview2" src="sans.png" alt="font family"><br>Font Family</a></div>
+      <div class="card"><a href="converter.html"><br><img src="cnvr.png" alt="converter"><br>Converter (Beta)</a></div>
+      <div class="card"><a href="list-of-fonts.html"><br><img src="fonts.png" alt="fonts"><br>List of Fonts</a></div>
+      <script src="scripts/changePic(fonts).js"></script>
+      <script src="scripts/changePic(fontfamily).js"></script>
+    </div>
+  </div>
+  <script src="scripts/darkM.js"></script>
+  <script src="scripts/fotd.js"></script>
+</body>
+</html>
